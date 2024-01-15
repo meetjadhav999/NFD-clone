@@ -1,0 +1,143 @@
+.navbar{
+    width: 100%;
+    position: fixed;
+    padding: 16px 0px;
+    background-color: rgba(55, 49, 69, 0);
+    top: 0px;
+    z-index: 1000;
+    backdrop-filter: blur(0px);
+    transition: opacity 0.5s ease 0s;
+    opacity: 1;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.snav{
+    background-color: rgba(55, 49, 69, 0.8)!important;
+}
+.navbar-content{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    color: white;
+    background: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 0px 36px;
+    transition: all 0.6s ease 0s;
+    height: 75px;
+    width: 94%;
+    margin: 0 1.5%;
+}
+.snav-content{
+    background-color: rgb(255, 255, 255,0);
+    height: 49px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap:22px;
+    transition: all 0,6s ease;
+
+}
+
+.slogocolor{
+    fill:white;
+}
+
+.nav-links{
+    display: flex;
+    gap:20px
+}
+
+.snavlinks a{
+    color: white!important;
+}
+
+.nav-links a{
+    padding: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(79, 86, 98);
+    cursor: pointer;
+    position: relative;
+    transition: text-decoration,color 0.5s ease 0s;
+    text-decoration: none;
+    text-underline-offset: 5px;
+
+}
+.nav-links a:hover{
+    color: rgb(108, 82, 238)!important;
+    text-decoration: underline ;
+}
+.other-icons{
+    display: flex;
+    gap: 22px;
+
+}
+.other-icons a{
+    text-decoration: none;
+}
+
+.other-links{
+    display: none;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+.sother-links{
+    display: flex!important;
+
+}
+.other-links a{
+    text-decoration: none;
+    max-width: 116px;
+}
+.other-links button{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    cursor: pointer;
+
+}
+.otherlink-div1{
+    position: relative;
+    width: 24px;
+    min-width: 24px;
+    height: 49px;
+    background-color: rgb(108, 82, 238);
+    transition: all 0.5s ease 0s;
+    left: 1px;
+    clip-path: path("M 10 49 C 4.47715 49 0 44.5229 0 39 V 19.4871 C 0 16.1312 1.68339 12.999 4.48224 11.1472 L 18.8218 1.66007 C 20.4583 0.577328 22.3773 0 24.3395 0 H 88 C 93.5228 0 98 4.47716 98 10 V 28.7016 C 98 32.0576 96.3166 35.1898 93.5178 37.0416 L 77.9521 47.3399 C 76.3155 48.4227 74.3966 49 72.4343 49 H 10 Z");
+}
+.otherlink-div2{
+    display: flex;
+    position: relative;
+    width: auto;
+    min-width: 24px;
+    height: 49px;
+    background-color: rgb(108, 82, 238);
+    transition: all 0.5s ease 0s;
+    z-index: 1001;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.otherlink-div3{
+    position: relative;
+    width: 24px;
+    min-width: 24px;
+    height: 49px;
+    background-color: rgb(108, 82, 238);
+    transition: all 0.5s ease 0s;
+    left: 1px;
+    clip-path: path("M 10 49 C 4.47715 49 0 44.5229 0 39 V 19.4871 C 0 16.1312 1.68339 12.999 4.48224 11.1472 L 18.8218 1.66007 C 20.4583 0.577328 22.3773 0 24.3395 0 H 88 C 93.5228 0 98 4.47716 98 10 V 28.7016 C 98 32.0576 96.3166 35.1898 93.5178 37.0416 L 77.9521 47.3399 C 76.3155 48.4227 74.3966 49 72.4343 49 H 10 Z");
+
+    transform: scale(-1);
+    right: 1px;
+    left: unset;
+}

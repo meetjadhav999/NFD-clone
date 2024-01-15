@@ -1,0 +1,40 @@
+.footer-div{
+    padding:100px 0;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.footerdiv-1{
+    margin-left: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.footerdiv-1 p{
+    font-family: formular;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(79, 86, 98);
+    line-height: 17px;
+    margin-left: 60px;
+    margin-right: 98px;
+}
+.footerdiv-1 a{
+    font-family: formular;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(23, 23, 23);
+    line-height: 20px;
+    margin-left: 20px;
+}
+.footerdiv-2{
+    font-family: formular;
+    margin-right: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}

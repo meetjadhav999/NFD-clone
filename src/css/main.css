@@ -1,0 +1,278 @@
+
+@font-face {
+    font-family: synesemibold;
+    src: url('fonts/synesemibold.TTF');
+}
+@font-face {
+    font-family: synebold;
+    src: url('fonts/synebold.TTF');
+}@font-face{
+    font-family: formular;
+    src: url('fonts/formular.TTF')
+}
+body{
+    background-color: #e8ebf1;
+}
+
+
+.main-component{
+    width:97%;
+    margin: 1.5%;
+}
+
+.first-component{
+    width: 100%;
+    display: flex;
+    margin-top: 107px;
+}
+.left-side{
+    width: 50%;
+    background: rgb(255, 255, 255);
+    border-radius: 12px 0px 0px 12px;
+    padding: 72px 64px 115px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    font-family: formular;
+}
+
+.left-side h2{
+    text-align: center;
+    font-family: synebold;
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(23, 23, 23);
+    margin-bottom: 10px;
+}
+.left-side h3{
+    font-family: synebold;
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(132, 138, 255);
+    margin: 0;
+}
+.left-side-text{
+    max-width: 568px;
+    width: 100%;
+    margin-top: 16px;
+    text-align: center;
+    line-height: 28px;
+    font-family: formular;
+    font-size: 18px;
+    font-weight: 100;
+    color: rgb(79, 86, 98);
+}
+
+
+.featuresdiv{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 40px;
+
+}
+.feature{
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(149, 163, 191, 0.35) 0px 8px 30px;
+    border-radius: 15px;
+    padding: 6px 20px 6px 6px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 10px;
+}
+.feature-icon{
+    width: 36px;
+    height: 36px;
+    background: rgb(232, 235, 241);
+    border-radius: 10px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.feature-text{
+    font-family: Formular;
+    font-size: 14px;
+    font-weight: 100;
+    color: rgb(16, 17, 17);
+    text-align: left;
+}
+
+.left-side-btns{
+
+    margin-top: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:32px;
+
+}
+
+.purple-button{
+    display: flex;
+    width: auto;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+.p-btn-div1{
+    position: relative;
+    width: 24px;
+    min-width: 24px;
+    height: 49px;
+    background-color: rgb(108, 82, 238);
+    transition: all 0.5s ease 0s;
+    left: 1px;
+    clip-path: path("M 10 49 C 4.47715 49 0 44.5229 0 39 V 19.4871 C 0 16.1312 1.68339 12.999 4.48224 11.1472 L 18.8218 1.66007 C 20.4583 0.577328 22.3773 0 24.3395 0 H 88 C 93.5228 0 98 4.47716 98 10 V 28.7016 C 98 32.0576 96.3166 35.1898 93.5178 37.0416 L 77.9521 47.3399 C 76.3155 48.4227 74.3966 49 72.4343 49 H 10 Z");
+}
+.p-btn-div2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 100px;
+    height: 49px;
+    background-color: rgb(108, 82, 238);
+    transition: all 0.5s ease 0s;
+    font-family: formular;
+    justify-content: center;
+
+}
+.p-btn-div3{
+    position: relative;
+    width: 24px;
+    min-width: 24px;
+    height: 49px;
+    background-color: rgb(108, 82, 238);
+    transition: all 0.5s ease 0s;
+    clip-path: path("M 10 49 C 4.47715 49 0 44.5229 0 39 V 19.4871 C 0 16.1312 1.68339 12.999 4.48224 11.1472 L 18.8218 1.66007 C 20.4583 0.577328 22.3773 0 24.3395 0 H 88 C 93.5228 0 98 4.47716 98 10 V 28.7016 C 98 32.0576 96.3166 35.1898 93.5178 37.0416 L 77.9521 47.3399 C 76.3155 48.4227 74.3966 49 72.4343 49 H 10 Z");
+    transform: scale(-1);
+    right: 1px;
+    left: unset;
+}
+.left-side-btns a{
+    color: rgb(108, 82, 238);
+    cursor: pointer;
+}
+
+.ellips{
+    background: url('images/PurpleEllips.webp') center center / cover no-repeat;
+    width: 100%;
+    height: 93px;
+    position: absolute;
+    bottom: 0px;
+}
+
+
+
+/* Right side of the div*/
+
+.right-side{
+    width: 50%;
+    min-height: 100%;
+    background: rgb(2, 2, 3);
+    border-radius: 0px 12px 12px 0px;
+    padding: 122px 64px 115px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.ellips-opp{
+    background: url('images/PurpleEllips.webp') center center / cover no-repeat;
+    width: 100%;
+    height: 93px;
+    position: absolute;
+    top: 0px;
+    transform: rotate(180deg);
+}
+
+.right-side h2{
+    font-family: synebold;
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(39, 39, 80);
+    background: linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 162.5%) text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.right-side h3{
+    font-family: synebold;
+    font-size: 50px;
+    margin: 0;
+    font-weight: 700;
+    color: rgb(39, 39, 80);
+    background: linear-gradient(341.87deg, rgb(132, 138, 255) -1.64%, rgb(234, 140, 255) 106.1%) text;
+    -webkit-text-fill-color: transparent;
+}
+.right-side-text{
+    max-width: 568px;
+    width: 100%;
+    margin-top: 16px;
+    text-align: center;
+    line-height: 28px;
+    font-family: formular;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(131, 131, 131);
+}
+
+.right-side-btns{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.rbtn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 256px;
+    padding: 23px;
+    position: relative;
+    transition: border-color 0.3s ease 0s;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.active{
+    border-bottom: 2px solid rgb(108, 82, 238);    
+}
+
+.rbtn-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: formular;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    transition: color 0.3s ease 0s;
+}
+.lumination-active{
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    opacity: 1;
+}
+
+.lumination-inactive{
+    opacity: 0;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+}
